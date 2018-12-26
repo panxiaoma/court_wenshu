@@ -1,0 +1,23 @@
+[[source]]
+url = "https://pypi.tuna.tsinghua.edu.cn/simple/"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+requests = "*"p
+sqlalchemy = "*"
+pymysql = "*"
+pymongo = "*"
+mysql-connector = "*"
+aiohttp = "*"
+redis = "*"
+"bs4" = "*"
+"html5lib" = "*"
+xlrd = "*"
+pyexecjs = "*"
+pillow = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.6"
