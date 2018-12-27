@@ -26,7 +26,7 @@ def get_ip():
     for i in range(3):
         try:
             mutex = threading.Lock()
-            url = 'http://10.0.2.82/proxy/next/:wenshu.court.gov.cn'
+            url = ''
             mutex.acquire()
             r = eval(requests.get(url=url).text)
             mutex.release()
